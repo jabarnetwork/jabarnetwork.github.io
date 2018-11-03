@@ -114,13 +114,19 @@ a {
 		width: 320px;
 	}
 	
-	p {
-		width: 220px;
+	h1 {
+		padding: 10px;
+		font-size: 40px;
+		text-align: center;
+		margin: auto;
 	}
 	
-	h1 {
-		padding: 15px;
-		font-size: 40px;
+	p {
+		width: 300px;
+	}
+	
+	.by p {
+		padding: 10px;
 	}
 	
 	.color img {
@@ -136,7 +142,7 @@ a {
 	}
 
 	.breakdown img {
-    		width: 320px;
+    		width: 300px;
     		margin: auto;
 	}
 
