@@ -103,3 +103,34 @@ a {
 .donation img{
     width: 400px;
 }
+
+
+@media only screen and (min-width: 600px) {
+	.color img {
+    width: 200px;
+    margin: auto;
+	align-content: center;
+}
+
+.slide img {
+    height: 80px;
+    margin: auto;
+    
+}
+
+.breakdown img {
+    width: 200px;
+    margin: auto;
+}
+
+.about img {
+    width: 80px;
+}
+
+.getInvolved img{
+    width: 80px;
+}
+
+.donation img{
+    width: 80px;
+}
