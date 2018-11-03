@@ -33,7 +33,7 @@ h1 {
     text-transform: uppercase;
     font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
-	padding: 40px;
+    padding: 40px;
 }
 
 h2 {
@@ -109,6 +109,15 @@ a {
 	.contents {
 		width: 280px;
 	}
+	
+	p {
+		width: 220px;
+	}
+	
+	h1 {
+		padding: 15px;
+	}
+	
 	.color img {
     		width: 200px;
     		margin: auto;
