@@ -106,12 +106,12 @@ a {
 
 @media only screen and (max-width: 768px) {
 	.container {
-		width: 320px;
+		width: 400px;
 		height: 100%;
 	}
 	
 	.contents {
-		width: 280px;
+		width: 320px;
 	}
 	
 	p {
@@ -120,34 +120,35 @@ a {
 	
 	h1 {
 		padding: 15px;
+		font-size: 40px;
 	}
 	
 	.color img {
-    		width: 200px;
+    		width: 300px;
     		margin: auto;
 		align-content: center;
 	}
 
 	.slide img {
-   		width: 200px;
+   		width: 300px;
     		margin: auto;
     
 	}
 
 	.breakdown img {
-    		width: 200px;
+    		width: 320px;
     		margin: auto;
 	}
 
 	.about img {
-    		width: 120px;
+    		width: 200px;
 	}
 
 	.getInvolved img{
-    		width: 120px;
+    		width: 200px;
 	}
 
 	.donation img{
-    		width: 120px;
+    		width: 200px;
 	}
 }
