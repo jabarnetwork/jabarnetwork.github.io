@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(img/background_green.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    height:100%;
+	background: rgba(0, 0, 0, 0.86);
+	position: relative;
+	margin: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.contents {
+    width: 600px;
+    height:100%;
+    background: none;
+    color: #f8f2f2;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+	padding: 40px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+	line-height: 1.6;
+	width: 600px;
+}
+
+.version h3 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	text-align: center;
+}
+
+.by p {
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+	padding: 20px;
+    margin: auto;
+}
+
+a:hover {
+	color: #aca8a8;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #61c1d3;
+}
+
+.color img {
+    width: 600px;
+    margin: auto;
+	align-content: center;
+}
+
+.slide img {
+    height: 400px;
+    margin: auto;
+    
+}
+
+.breakdown img {
+    width: 600px;
+    margin: auto;
+}
+
+.about img {
+    width: 400px;
+}
+
+.getInvolved img{
+    width: 400px;
+}
+
+.donation img{
+    width: 400px;
+}
