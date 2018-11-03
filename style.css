@@ -82,7 +82,7 @@ a {
 }
 
 .slide img {
-    height: 400px;
+    width: 600px;
     margin: auto;
     
 }
@@ -130,7 +130,7 @@ a {
 	}
 
 	.slide img {
-   		height: 80px;
+   		width: 200px;
     		margin: auto;
     
 	}
