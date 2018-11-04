@@ -57,6 +57,12 @@ p {
 	text-align: center;
 }
 
+.doawload p {
+	text-align: center;
+	font-size: 18px;
+	margin: auto;
+}
+
 .by p {
     text-align: center;
     padding: 20px;
