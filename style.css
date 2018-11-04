@@ -58,20 +58,19 @@ p {
 }
 
 .by p {
-    font-family: 'Sedgwick Ave', cursive;
     text-align: center;
-	padding: 20px;
+    padding: 20px;
     margin: auto;
-}
-
-a:hover {
-	color: #aca8a8;
 }
 
 a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #61c1d3;
+}
+
+a:hover {
+	color: #aca8a8;
 }
 
 .color img {
