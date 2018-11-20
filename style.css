@@ -1,0 +1,261 @@
+/*Navigation*/
+.logo img{
+	width: 120px;
+}
+.bg-white {
+	background: #ffffff;
+}
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: black;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+/*Image Slider*/
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/*Get Involved*/
+.obfGreen {
+	background-color: #7dd37d;
+	color: #ffffff;
+}
+
+
+/*Main Activities*/
+.btn-green {
+	background: none !important;
+	border-color: green !important;
+	color: green !important;
+}
+.btn-green a {
+	text-decoration: none;
+	color: green !important;
+}
+.btn-green:hover {
+	background: green !important;
+	border-color: none !important;
+	color: #ffffff !important;
+}
+.btn-green a:hover {
+	text-decoration: none;
+	color: #ffffff  !important;
+}
+.btn-red {
+	background: none !important;
+	border-color: red!important;
+	color: red !important;
+}
+.btn-red a {
+	text-decoration: none;
+	color: red !important;
+}
+.btn-red:hover {
+	background: red!important;
+	border-color: none !important;
+	color: #ffffff !important;
+}
+.btn-red a:hover {
+	text-decoration: none;
+	color: #ffffff !important;
+}
+.btn-blue {
+	background: none !important;
+	border-color: #096dce !important;
+	color: #096dce !important;
+}
+.btn-blue a {
+	text-decoration: none;
+	color: #096dce !important;
+}
+.btn-blue:hover {
+	background: #096dce !important;
+	border-color: none !important;
+	color: #ffffff !important;
+}
+.btn-blue a:hover {
+	text-decoration: none;
+	color: #ffffff !important;
+}
+.btn-orange {
+	background: none !important;
+	border-color: #fac30b !important;
+	color: #fac30b !important;
+}
+.btn-orange a {
+	text-decoration: none;
+	color: #fac30b !important;
+}
+.btn-orange:hover {
+	background: #fac30b!important;
+	border-color: none !important;
+	color: #ffffff !important;
+}
+.btn-orange a:hover {
+	text-decoration: none;
+	color: #ffffff !important;
+}
+/*Event*/
+#event {
+	background-color: #90c790;
+	color: #ffffff;
+}
+h2 {
+	padding-bottom: 20px;
+}
+/*Blog*/
+#blog {
+	background-color: #096dce;
+	color: #ffffff;
+}
+.col-blog {
+	width: 220px;
+	height: 500px;
+}
+.btn-blog a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.btn-blog a:hover{
+	color: #096dce;
+}
+/*Board*/
+.boardTittle h1 {
+	color: #096dce;
+}
+.btn-outline-primary {
+	border-color: #096dce;
+	color: #096dce;
+}
+.btn-outline-primary:hover {
+	background-color: #096dce;
+	color: #ffffff;
+}
+.noBorder {
+	border: none;
+}
+.nameInBlue {
+	background-color: #096dce;
+	color: #ffffff;
+	width: 85%;
+	height: 40%;
+	margin-top: -50px;
+	margin: auto;
+}
+.nameInGreen {
+	background-color: #90c790;
+	color: #ffffff;
+	width: 85%;
+	height: 40%;
+	margin-top: -50px;
+	margin: auto;
+}
+.nameInBlue p {
+	color: #90c790;
+}
+.nameInGreen p {
+	color: #096dce;
+}
+
+/*Mailing List*/
+#mail {
+	background-color: #096dce;
+	color: #ffffff; 
+}
+.btn-primary {
+	background-color: #ffffff;
+	color: #096dce;
+	border-radius: none;
+}
+.btn-primary:hover {
+	background-color: #096dce;
+	color: #ffffff;
+	border-radius: none;
+}
+.input {
+	width: 280px;
+	border-radius: none;
+}
+.submit {
+	font-weight: 500;
+	margin-top: 10px;
+}
+.twitter img {
+	width: 40px;
+}
+
+/*Projects*/
+.projects img{
+	width: 150px;
+}
+
+/*Footer*/
+.OBFfooter {
+	background-color: #90c790;
+	color: #ffffff;
+}
+.logoFooter {
+	position: relative;
+	top: 20px;
+	margin: auto;
+}
+.footerText ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*Padding*/
+.padding-left {
+	padding-left: 40px;
+}
+.padding-20 {
+	padding: 30px 20px 30px 20px;
+}
+.padding-25 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.padding-5 {
+	padding-right: 5px;
+  padding-left: 5px;
+}
+
+.padding-0 {
+	padding-right: 0;
+  padding-left: 0;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+	.carousel-caption {
+	position: absolute;
+	top: 45%;
+	}
+	.carousel-caption h1 {
+		font-size: 200%;
+	}
+	.carousel-caption h3 {
+		font-size: 100%;
+	}
+	
+	.col-blog {
+	height: 100%;
+	}
+	.img-width img {
+		width: 250px;
+	}
+	
+	.followUs h5 {
+		text-align: left;
+		padding-top: 10px;
+	}
+	.twitter img {
+		align-content: left;
+	}
+}

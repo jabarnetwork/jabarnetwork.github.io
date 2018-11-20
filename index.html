@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OBF Homepage</title>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+	<!-- Custom CSS -->
+	<link rel='stylesheet' type='text/css' href="style.css">
+	
+	<!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Neucha|Mr+Bedfort|Yanone+Kaffeesatz:200,300,400,700|Sedgwick+Ave|Shadows+Into+Light+Two|Lato:300|Roboto|Merienda" rel='stylesheet'>
+  
+  <!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand logo" href="#"><img src="img/OBFLogo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">About</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">About Us</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">By-Laws</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Membership</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="https://news.open-bio.org/" id="navbarDropdown" role="button" data-toggle="dropdown">Blog</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">2018</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">2017</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">2016</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">More</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Activities</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">BOSC</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">GSOC</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Travel Fellowhip</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">More</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Projects</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">BioPython</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">BioPearl</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">BioJava</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">More</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Events</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Upcoming Event</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Calendar</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Get Involved</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Donate</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Become A Volunteer</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Become A Member</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1" ></li>
+			<li data-target="#slides" data-slide-to="2" ></li>
+		</ul>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<img src="img/slide1.png" />
+				<div class="carousel-caption">
+					<h1 class="display-4">The Open Bioinformatics Foundation</h1>
+					<p>The Open Bioinformatics Foundation (OBF) is a non-profit, volunteer-run group dedicated to promoting the practice and philosophy of Open Source software development and Open Science within the biological research community.</p>
+					<button type="button" class="btn btn-outline-light btn-sm">More Details</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/slide2.png" />
+				<div class="carousel-caption">
+					<h1 class="display-4">The Bioinformatics Open Source Conference</h1>
+					<p>BOSC promotes and facilitates the open source development of bioinformatics tools and open science. </p>
+					<button type="button" class="btn btn-outline-light btn-sm">More Details</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/slide3.png" />
+				<div class="carousel-caption">
+					<h1 class="display-4">Google Summer of Code</h1>
+					<p>GSoC is a student internship program for open-source projects. The program offers eligible student developers stipends to write code for open source projects over a period of 3 summer months ("flip bits, not burgers").</p>
+					<button type="button" class="btn btn-outline-light btn-sm">More Details</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Get Involved-->
+	<div class="container-fluid obfGreen">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 text-center padding-25">
+				<img src="icon/donation.png">
+				<p>DONATE</p>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 text-center padding-25">
+				<img src="icon/volunteer.png">
+				<p>VOLUNTEER</p>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 text-center padding-25">
+				<img src="icon/member.png">
+				<p>MEMBER</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Main Activities -->
+	<div class="container-fluid padding-20 padding-left">
+		<div class="row">
+			<div class="col-12 text-center padding-20">
+				<h1 class="display-6">MAIN ACTIVITIES</h1>
+			</div>
+				
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center padding-5">
+				<div class="card">
+					<img class="card-img-top" src="img/green.png">
+					<div class="card-body">
+						<h4>BOSC</h4>
+						<br>
+						<p>The Bioinformatics Open Source Conference has been held annually as a Special Interest Group (SIG) of the ISCB's annual ISMB conference. BOSC promotes and facilitates the open source development of bioinformatics tools and open science.</p>
+						<button type="button" class="btn btn-outline-light btn-green btn-sm"><a href="https://www.open-bio.org/wiki/BOSC">More Details</a></button>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center padding-5">
+				<div class="card">
+					<img class="card-img-top" src="img/red.png">
+					<div class="card-body">
+						<h4>GSOC</h4>
+						<br>
+						<p>The Google Summer of Code 2018 is ON! OBF is once again applying as a GSoC mentoring organization this year. Interested mentors and students should subscribe to the OBF/GSoC mailing list. Please announce yourself, so we know who you are! The details of each of our project ideas are listed below, including potential mentors.</p>
+						<button type="button" class="btn btn-outline-light btn-red btn-sm"><a href="https://obf.github.io/GSoC/">More Details</a></button>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center padding-5">
+				<div class="card">
+					<img class="card-img-top" src="img/blue.png">
+					<div class="card-body">
+						<h4>TRAVEL FELLOWSHIP</h4>
+						<br>
+						<p>The Open Bioinformatics Foundation (OBF) is pleased to announce a new OBF Travel Fellowship program aimed at increasing diverse participation at events promoting open source bioinformatics software development and open science in the biological research community.</p>
+						<button type="button" class="btn btn-outline-light btn-blue btn-sm"><a href="https://github.com/OBF/obf-docs/blob/master/Travel_fellowships.md">More Details</a></button>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center padding-5">
+				<div class="card">
+					<img class="card-img-top" src="img/Orange.png">
+					<div class="card-body">
+						<h4>HACKATHON</h4>
+						<br>
+						<p>Hacking marathons (Hackathons) or coding festivals (Codefests) are informal meetings focused on hands on programming and coding, with in person collaboration potentially allowing much more rapid discussion than remote discussion by email or IRC. OBF Hackathons have focused on collaborative coding, documentation, and better interoperation between OBF and other bioinformatics open-source projects.</p>
+						<button type="button" class="btn btn-outline-light btn-orange btn-sm"><a href="https://www.open-bio.org/wiki/Hackathon">More Details</a></button>
+					</div>
+				</div>
+			</div>
+				
+		</div>	
+	</div>
+	
+	
+	<!-- Events & Calendar -->
+	<div class="container-fluid padding-left" id="event">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 text-left padding-20 img-width">
+				<h2>UPCOMING EVENT</h2>
+				<img src="img/event.png">
+				<p>November 8, 2018</p>
+				<h3>The Tittle Event</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<button type="button" class="btn btn-outline-light btn-sm"><a>More Details</a></button>
+			</div>
+				
+			<div class="col-xs-12 col-md-6 padding-20 img-width">
+				<h2>CALENDAR</h2>
+				<img src="img/Calendar.png">
+			</div>
+				
+		</div>
+	</div>
+	
+	<!-- Blog / News -->
+	<div class="container-fluid padding-20 padding-left" id="blog">
+		<div class="row">
+			<div class="col-12 text-center padding-20">
+				<h1 class="display-6">OUR BLOG/ NEWS</h1>
+			</div>
+			
+			<div class="col-xs-12 col-md-6 col-blog text-left padding-20 img-width">
+				<img src="img/blog1.png">
+				<br>
+				<h3>The color of bioinformatics: what is it and how can it be modified?</h3>
+				<p>Posted on August 29, 2018 by Tendai Mutangadura</p>
+				<br>
+				<p>This is a guest blog post from Tendai Mutangadura, who was supported by the ongoing Open Bioinformatics Foundation travel fellowship program to attend the GCCBOSC 2018 meeting in Portland, June 2018. The OBF’s Travel Fellowship program continues to help open source bioinformatics software developers with funding to attend conferences or workshops.</p>
+				<button type="button" class="btn btn-outline-light btn-blog btn-sm"><a href="https://news.open-bio.org/2018/08/29/the-color-of-bioinformatics/">More Details</a></button>
+			</div>
+			
+			<div class="col-xs-12 col-md-6 col-blog text-left padding-20 img-width">
+				<img src="img/blog2.png">
+				<br>
+				<h3>City of roses they call it – Portland Oregon (USA)</h3>
+				<p>Posted on August 18, 2018 by Farah Zaib Khan</p>
+				<br>
+				<p>How should I start describing the fruitful experience in this amazing city… First time ever in Portland, second time attending BOSC… I knew I was signing up for a great time but did not know much about the uncanny beauty of this picturesque city.  </p>
+				<button type="button" class="btn btn-outline-light btn-blog btn-sm"><a>More Details</a></button>
+			</div>
+		
+		</div>
+	</div>
+	
+	<!-- Board -->
+	<div class="container-fluid padding-20 padding-left">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center padding-20 boardTittle">
+				<h1 class="display-6 ">OUR BOARD</h1>
+				<button type="button" class="btn btn-outline-primary btn-md active"><a>BOARD</a></button>
+				<button type="button" class="btn btn-outline-primary btn-md"><a>ALL</a></button>
+			</div>
+			
+			<div class="col-xs-12 col-sm-3 col-md-3 text-center padding-0">
+				<div class="card noBorder" >
+					<img class="card-img-top" src="img/obfgreen.png">
+					<div class="nameInBlue">
+						<h4>HILMAR LAPP</h4>
+						<p>President of OBF</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 col-sm-3 col-md-3 text-center padding-0">
+				<div class="card noBorder">
+					<img class="card-img-top" src="img/blue.png">
+					<div class="nameInGreen">
+						<h4>PETER COCK</h4>
+						<p>Treasurer of OBF</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 col-sm-3 col-md-3 text-center padding-0">
+				<div class="card noBorder">
+					<img class="card-img-top" src="img/obfgreen.png">
+					<div class="nameInBlue">
+						<h4>CHRIS FIELD</h4>
+						<p>Secretary of OBF</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!-- Mailing List -->
+	<div class="container-fluid padding-20 padding-left" id="mail">
+		<div class="row padding-left">
+			<div class="col-xs-12 col-md-6 text-left">
+				<h5>Join Our Mailing List</h5>
+				<input type="email" class="form-control input" id="email" placeholder="Enter email" name="email">
+				<button type="button" class="btn btn-primary tbn-sm submit"><a>SUBMIT</a></button>
+			</div>
+			<div class="col-xs-12 col-md-6 text-center followUs">
+				<h5>Follow Us</h5>
+				<a href="#" class="twitter"><img src="icon/twitter.png"></a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Projects -->
+	<div class="container-fluid padding-25">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center padding-20">
+				<h1 class="display-6">OUR PROJECTS</h1>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-xl-3">
+				<a href="https://biopython.org/" class="projects"><img src="img/biopython_logo_white.png"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-xl-3">
+				<a href="https://biojava.org/" class="projects"><img src="img/biojava.png"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-xl-3">
+				<a href="https://biosql.org/wiki/Main_Page" class="projects"><img src="img/BioSQL.png"></a>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-xl-3">
+				<a href="https://bioperl.org/" class="projects"><img src="img/bioperl.png"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-xl-3">
+				<a href="http://biomoby.open-bio.org/" class="projects"><img src="img/moby1.png"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-xl-3">
+				<a href="http://biodas.open-bio.org/wiki/Main_Page" class="projects"><img src="img/Biodas.png"></a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<div class="container-fluid padding-25 OBFfooter">
+		<div class="row padding-left padding-25 footerText">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<h5>WHO WE ARE</h5>
+				<ul>
+					<li><a href="#" class="">OUR TEAM</a></li>
+					<li><a href="#" class="">PARTNER</a></li>
+					<li><a href="#" class="">BY-LAWS</a></li>
+					<li><a href="#" class="">CONTACT</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 footerText">
+				<h5>WHAT WE DO</h5>
+				<ul>
+					<li><a href="#" class="">PROJECTS</a></li>
+					<li><a href="#" class="">EVENTS</a></li>
+					<li><a href="#" class="">MEMBERSHIP</a></li>
+					<li><a href="#" class="">DONATION</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<h5>ABOUT US</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<h5>FOLLOW US</h5>
+				<a href="#" class="twitter"><img src="icon/twitter.png"></a>
+			</div>
+			
+			<div class="col-12 text-center padding-25 logoFooter">
+				<h6>The Open Bioinformatics Foundation</h6>
+				<h5>2018</h5>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
